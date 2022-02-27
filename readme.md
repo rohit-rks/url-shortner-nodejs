@@ -2,7 +2,7 @@
 * using ejs templating to directly render the data at client side
 ## Assumption
 * Assuming that  million of url needed to shrink in month , storing the url in such way that  the collisiom chance  reduce to zero .
-## Archecture diagram 
+## Architecture diagram 
 ![](views/arc.png)
 ## mongodb database schema
 * ({
@@ -21,13 +21,13 @@
 
 * one for giving original url and record the number of clicks
 
-* /shortUrls( original_url)
+## /shortUrls( original_url)
 * Parameters:
 * original_url (string): Original URL to be shortened.
 * Returns: (string)
 * A successful insertion returns the shortened URL; otherwise, it returns an error code
 
-* /:shortUrl( shorted_url)
+## /:shortUrl( shorted_url)
 * Parameters:
 *  shorted_url (string): shorted url.
 * Returns: (string)
