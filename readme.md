@@ -1,8 +1,8 @@
-# URL shortner  project built using node js ,expressjs and mongodb
-# using ejs templating to directly render the data at client side
-# Assumption
-# Assuming that  million of url needed to shrink in month , storing the url in such way that  the collisiom chance  reduce to zero .
-# Archecture diagram 
+## URL shortner  project built using node js ,expressjs and mongodb
+* using ejs templating to directly render the data at client side
+## Assumption
+* Assuming that  million of url needed to shrink in month , storing the url in such way that  the collisiom chance  reduce to zero .
+## Archecture diagram 
 ![](views/arc.png)
 # mongodb database schema
 # ({
