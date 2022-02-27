@@ -11,7 +11,7 @@
 #  clicks: { type: Number, required: true, default: 0}
 # })
 #
-#[](views/schema.png)
+![](views/schema.png)
 # using shortid npm package  to give hashed url  the collision probability of any given 2 ids is simply:
 # 1 in 38^8
 # that's about a 1 in 4 trillion chance, which enough for storing billions of url.
